@@ -1,16 +1,126 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Details</title>
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/responsivemobilemenu.css" />
+    <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/main.css" />
+    <script src="/js/vendor/custom.modernizr.js"></script>
 </head>
 <body>
-<a href="index.html">Home</a>
-<a href="login.html">Login</a>
-<a href="sign_up.html">Sign Up</a>
-<a href="results.html">Results</a>
-<a href="library.html">Library</a>
+<div class="container">
+<!-- Navbar -->
+<nav class="top-bar" data-topbar>
+    <ul class="title-area">
+        <li class="name">
+            <h1><a href="index.html">Guithub</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+    <section class="top-bar-section">
+        <ul class="left">
+            <li><a href="library.html">Library</a></li>
+        </ul>
+        <ul class="right">
+            <li><a href="sign_up.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </section>
+</nav>
+<!-- End Navbar -->
+
+<div class="small-8 medium-12 large-12 columns">
+    <h1>Mayones Regius 8</h1>
+</div>
+<div class="small-12 medium-8 large-8 columns">
+    <ul data-orbit="">
+        <li>
+            <img src="img/mayones1.jpg" alt="Mayones Regius 8 photo 1" />
+
+        </li>
+        <li>
+            <img src="img/mayones2.jpg" alt="Mayones Regius 8 photo 2" />
+
+        </li>
+        <li>
+            <img src="img/mayones3.jpg" alt="Mayones Regius 8 photo 3" />
+
+        </li>
+    </ul>
+</div>
+<div class="spacing hide-for-small-only medium-2 large-2 columns">
+
+
+        <a class="th" href="img/mayones1.jpg">
+            <img src="img/mayones1.jpg" />
+        </a>
+        <a class="th" href="img/mayones2.jpg">
+            <img src="img/mayones2.jpg" />
+        </a>
+        <a class="th" href="img/mayones3.jpg">
+            <img src="img/mayones3.jpg" />
+        </a>
+
+
+</div>
+<div class="small-12 medium-2 large-2 columns">
+    <div>
+        <p class="pricing">$1750.00</p>
+        <button type="button" class="detailsButtons">Buy Now</button>
+        <button type="button" class="detailsButtons">Save to Library</button>
+    </div>
+    <table id="info">
+
+        <tr>
+            <td>Manufacturer:</td>
+            <td>Mayones</td>
+        </tr>
+        <tr>
+            <td>Type:</td>
+            <td>Electric</td>
+        </tr>
+        <tr>
+            <td>Strings:</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Scale Length:</td>
+            <td>29.5"</td>
+        </tr>
+        <tr>
+            <td>Color:</td>
+            <td>Blue</td>
+        </tr>
+        <tr>
+            <td>Year:</td>
+            <td>2014</td>
+        </tr>
+    </table>
+
+
+</div>
+    <hr>
+<div class="small-12 medium-12 large-10 columns">
+
+            <p> When even 7 strings are not enough to set your creativity loose from the depth of mind, a Regius 8 is the solution. Whether you seek ambient clean passages high up the strings or djent power from down under Regius 8 lets you express what you hide deep inside.
+                A Regius 8 sports a profiled Flamed Maple top on a Swamp Ash or optional Mahogany body and its highly recognizable 11-ply neck-thru laminate neck with baritone (687mm) scale.
+                Comes with EMG 808 or Seymour Duncan Blackouts 8 pickups, Sperzel Trimlock tuners, ABM fixed bridge with strings-thru-body and Schaller Security Straplocks. </p>
+
+
+
+</div>
+<div class="small-12 medium-12 large-2 columns">
+    <div class="addBox hide-for-medium-down">Advertise Here!</div>
+</div>
+</div><!-- End .container -->
+<!-- Javascript -->
+<script src="js/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/foundation/foundation.topbar.js"></script>
+<script>
+    $(document).foundation();
+</script>
+<script type='text/javascript' src='js/main.js'></script>
 </body>
 </html>

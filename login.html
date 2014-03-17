@@ -1,18 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login</title>
+    <meta charset="UTF-8">
+    <title>Log In</title>
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/responsivemobilemenu.css" />
+    <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/main.css" />
+    <script src="/js/vendor/custom.modernizr.js"></script>
 </head>
 <body>
-<a href="index.html">Home</a>
-<a href="sign_up.html">Sign Up</a>
-<a href="results.html">Results</a>
-<a href="details.html">Details</a>
-<a href="library.html">Library</a>
+<div class="container">
+    <!-- Navbar -->
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="index.html">Guithub</a></h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+        </ul>
+        <section class="top-bar-section">
+            <ul class="left">
+                <li><a href="library.html">Library</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="sign_up.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </section>
+    </nav>
+    <!-- End Navbar -->
+
+    <div class="signUpHeader small-12 medium-12 large-12 columns">
+        <h1>Welcome Back!</h1>
+
+    </div>
+    <div id="logo" class="large-offset-4 large-8 medium-offset-3 medium-8 small-offset-4 small-8 columns"> </div>
+    <div class="small-12 medium-12 large-12">
+
+        <form id="logIn">
+            <div class="row">
+                <div class="small-12 medium-6 medium-offset-3 large-6 large-offset-3 columns">
+                    <label>Username<input type="text"/> </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="small-12 medium-6 medium-offset-3 large-6 large-offset-3 columns">
+                    <label>Password<input type="password"/> </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="small-12 medium-6 medium-offset-3 large-6 large-offset-3 columns">
+                    <button type="submit" formaction="library.html" id="loginButton">Log In</button>
+                </div>
+            </div>
+        </form>
+    </div>
 
 
+
+</div><!-- End .container -->
+<!-- Javascript -->
+<script src="js/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/foundation/foundation.topbar.js"></script>
+<script>
+    $(document).foundation();
+</script>
+<script type='text/javascript' src='js/main.js'></script>
 </body>
 </html>

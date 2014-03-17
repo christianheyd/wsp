@@ -1,16 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Sign Up</title>
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/responsivemobilemenu.css" />
+    <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/main.css" />
+    <script src="/js/vendor/custom.modernizr.js"></script>
 </head>
 <body>
-<a href="index.html">Home</a>
-<a href="login.html">Login</a>
-<a href="results.html">Results</a>
-<a href="details.html">Details</a>
-<a href="library.html">Library</a>
+<div class="container">
+    <!-- Navbar -->
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="index.html">Guithub</a></h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+        </ul>
+        <section class="top-bar-section">
+            <ul class="left">
+                <li><a href="library.html">Library</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="sign_up.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </section>
+    </nav>
+    <!-- End Navbar -->
+
+    <div class="signUpHeader small-12 medium-12 large-12 columns">
+        <h1>Welcome to GuitHub!</h1>
+        <p>We just need a few bits of information before we can let you start posting your own listings, saving
+        others and finding your dream guitar!</p>
+    </div>
+    <div class="small-12 medium-12 large-12">
+
+        <form id="signUp">
+            <div class="row">
+                <div class="small-12 medium-6 large-6 columns">
+                    <label>First Name<input type="text"/> </label>
+                </div>
+                <div class="small-12 medium-6 large-6 columns">
+                    <label>Last Name<input type="text"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="small-12 medium-6 large-6 columns">
+                    <label>Email Address<input type="email"/> </label>
+                </div>
+                <div class="small-12 medium-6 large-6 columns">
+                    <label>Username<input type="text"/> </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="small-12 medium-6 large-6 columns">
+                    <label>Password<input type="password"></label>
+                </div>
+                <div class="small-12 medium-6 large-6 columns">
+                    <label>Re-enter Password<input type="password"/> </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="small-12 medium-12 large-12 columns">
+                    <button class="detailsButtons" type="submit">Register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+</div><!-- End .container -->
+<!-- Javascript -->
+<script src="js/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/foundation/foundation.topbar.js"></script>
+<script>
+    $(document).foundation();
+</script>
+<script type='text/javascript' src='js/main.js'></script>
 </body>
 </html>

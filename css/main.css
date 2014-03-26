@@ -328,4 +328,5 @@ h2 {
     padding-right: 0 !important; }
 
   .info2 {
-    visibility: hidden; } }
+    visibility: hidden;
+    width: 0; } }

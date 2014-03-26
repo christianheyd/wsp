@@ -293,8 +293,8 @@ h2 {
     left: 20px; }
 
   #premiumContainer {
-    margin-left: 0;
-    margin-right: 0; }
+    margin: 0;
+    padding: 0px; }
 
   #info {
     width: 100%;

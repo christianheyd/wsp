@@ -279,17 +279,22 @@ h2 {
 @media only screen and (max-width: 40em) {
   .container {
     margin: 0;
-    width: 100%; }
+    width: 100%;
+    padding: 0; }
 
   #logo {
     background: url(../img/logoMobile.png) no-repeat center center;
     width: 200px;
     position: relative;
-    right: 20px;
+    right: 48px;
     overflow: auto; }
 
   #submitSearch {
     left: 20px; }
+
+  #premiumContainer {
+    margin-left: 0;
+    margin-right: 0; }
 
   #info {
     width: 100%;

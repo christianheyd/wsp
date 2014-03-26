@@ -325,4 +325,7 @@ h2 {
 
   .linkColumn {
     padding-left: 0 !important;
-    padding-right: 0 !important; } }
+    padding-right: 0 !important; }
+
+  .info2 {
+    visibility: hidden; } }

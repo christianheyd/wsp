@@ -335,10 +335,12 @@ h2{
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
-	div.info1.small-4.columns{
-		width: 65% !important;
-		margin-left: 10px;
-	}
+	
+	.resultBox ul{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 0.9em;
+}
 	
 	.imgColumn{
 		padding-left: 0;

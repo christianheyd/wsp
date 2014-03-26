@@ -327,6 +327,17 @@ h2 {
     padding-left: 0 !important;
     padding-right: 0 !important; }
 
+  .imgColumn {
+    padding-left: 0; }
+
+  .info1 {
+    width: 65%;
+    margin-top: 5px;
+    margin-left: 10px; }
+
+  .resultBox ul li {
+    font-size: .7em !important; }
+
   .info2 {
     visibility: hidden;
     width: 0;

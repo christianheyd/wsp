@@ -292,7 +292,7 @@ h2 {
   #submitSearch {
     left: 20px; }
 
-  #premiumContainer {
+  #premiumContainer, #resultsContainer {
     margin: 0;
     padding: 0px; }
 

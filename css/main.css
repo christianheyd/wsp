@@ -384,4 +384,7 @@ h2 {
     position: relative;
     bottom: 80px;
     margin-top: -20px;
-    margin-left: -10px; } }
+    margin-left: -10px; }
+
+  #signUp row input {
+    margin-bottom: 10px; } }

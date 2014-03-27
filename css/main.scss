@@ -98,6 +98,13 @@ body{
 
 }
 
+#productDetails{
+	background:#ccc;
+	@include border-radius(4px);
+	padding: 10px;
+	font-weight: 200;
+}
+
 #resultsContainer{
     margin: 10px;
     background: #69798b;
@@ -386,6 +393,7 @@ h2{
 	
 	.detailsButtons{
 		width: 100%;
+		
 	}
 	
 	.pricing{

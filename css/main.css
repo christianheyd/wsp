@@ -92,6 +92,15 @@ body {
   border-radius: 4px;
   height: auto; }
 
+#productDetails {
+  background: #ccc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: 200; }
+
 #resultsContainer {
   margin: 10px;
   background: #69798b;

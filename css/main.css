@@ -387,4 +387,7 @@ h2 {
     margin-left: -10px; }
 
   #signUp input {
+    margin-bottom: 10px; }
+
+  #logIn input {
     margin-bottom: 10px; } }

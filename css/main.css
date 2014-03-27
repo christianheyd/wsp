@@ -363,4 +363,7 @@ h2 {
     margin-left: -10px; }
 
   .detailsButtons {
+    width: 100%; }
+
+  .pricing {
     width: 100%; } }

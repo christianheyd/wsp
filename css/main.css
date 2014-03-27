@@ -320,6 +320,14 @@ h2 {
   #libraryContainer {
     margin: 0; }
 
+  #imgBorder {
+    width: 80px;
+    height: 80px; }
+
+  #imgBorder img {
+    position: relative;
+    bottom: 6px; }
+
   .paddingFix {
     padding: 0; }
 
@@ -336,7 +344,7 @@ h2 {
     margin-left: 10px; }
 
   .resultBox ul li {
-    font-size: .7em !important; }
+    font-size: .8em !important; }
 
   .info2 {
     visibility: hidden;

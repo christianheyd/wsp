@@ -296,7 +296,8 @@ h2 {
     width: 200px;
     position: relative;
     right: 48px;
-    overflow: auto; }
+    overflow: auto;
+    height: 220px; }
 
   #submitSearch {
     left: 20px; }
@@ -376,4 +377,11 @@ h2 {
 
   .pricing {
     width: 100%;
-    text-align: center; } }
+    text-align: center; }
+
+  #deleteLib {
+    font-size: 1.2em;
+    position: relative;
+    bottom: 50px;
+    margin-top: -20px;
+    margin-left: -10px; } }

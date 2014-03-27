@@ -145,7 +145,7 @@ body {
   border-radius: 4px; }
 
 .pricing {
-  margin: 0 auto;
+  margin: 0 auto 10 auto;
   width: 150px;
   font-size: 2em;
   background: white;
@@ -360,4 +360,7 @@ h2 {
     position: relative;
     bottom: 50px;
     margin-top: -20px;
-    margin-left: -10px; } }
+    margin-left: -10px; }
+
+  .detailsButtons {
+    width: 100%; } }
